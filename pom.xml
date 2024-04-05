@@ -20,6 +20,12 @@
         <dependencies>
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-engine</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-params</artifactId>
                 <version>${junit.version}</version>
                 <scope>test</scope>
@@ -29,7 +35,6 @@
                 <artifactId>maven-plugin-api</artifactId>
                 <version>3.9.6</version>
             </dependency>
-
         </dependencies>
     </dependencyManagement>
     <build>
